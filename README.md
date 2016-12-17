@@ -15,7 +15,7 @@ Indicates current day and what time it is
 ## Usage
 ```
 Vous: Quelle heure est-il?
-Jarvis: Il est 12:34
+Jarvis: Il est 12 heures 34
 Vous: Quel jour on est?
 Jarvis: nous sommes le Samedi 17 sep 2016
 ```
