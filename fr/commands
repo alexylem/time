@@ -1,2 +1,2 @@
-*QUELLE HEURE*==say "il est $(date +"%H") heures $([ $(date +"%-M") -eq 0 ] || date +"%-M")"
+*QUELLE HEURE*==say "il est $(date +"%l") heures $([ $(date +"%-M") -eq 0 ] || date +"%-M")"
 *QUEL JOUR*==say "nous sommes le $(LC_TIME="$language.UTF-8" date +"%A %d %h %Y")"
