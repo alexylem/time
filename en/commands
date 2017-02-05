@@ -1,2 +1,2 @@
 *WHAT*TIME*==say "It is $(date +"%l") $([ $(date +"%-M") -eq 0 ] && echo "o'clock" || date +"%M")"
-*WHAT*DAY*==say "Today is $(LC_TIME="$language.UTF-8" date +"%A %d %h %Y")"
+*WHAT*DAY*==say "Today is $(LC_TIME="$language.UTF-8" date +"%A %d %B %Y")"
