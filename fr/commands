@@ -1,2 +1,2 @@
-*QUELLE HEURE*==say "il est $( [ $pg_time_format -eq 12 ] && date +"%l" || date +"%k") heures $([ $(date +"%-M") -eq 0 ] || date +"%-M")"
+*QUELLE HEURE*==say "il est $([ $pg_time_format -eq 12 ] && date +"%l" || date +"%k") h$([ "$tts_engine" = "google" ] || echo "eures" ) $([ $(date +"%-M") -eq 0 ] || date +"%-M")"
 *QUEL JOUR*==say "nous sommes le $(LC_TIME="$language.UTF-8" date +"%A %d %B %Y")"
